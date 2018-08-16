@@ -1,0 +1,6 @@
+{
+  "presets": ["react", "stage-2", ["env", {"modules": false}]],
+  "plugins": [
+    "universal-import"
+  ]
+}

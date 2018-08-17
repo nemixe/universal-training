@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{whha:function(n,e,t){"use strict";t.r(e);var a=t("q1tI"),i=t.n(a);e.default=function(){return i.a.createElement("div",null,"Profile Page")}}}]);
-//# sourceMappingURL=components-Profile.d5df011daa20751f3ebb.js.map

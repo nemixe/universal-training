@@ -1,6 +1,10 @@
 import universal from 'react-universal-component'
-const Home = universal(import('./components/Home'))
-const Profile = universal(import('./components/Profile'))
+const Home = universal(import(/* webpackChunkName: 'Home' */ './components/Home'), {
+    chunkName: 'Home'
+})
+const Profile = universal(import(/* webpackChunkName: 'Profile' */ './components/Profile'), {
+    chunkName: 'Profile'
+})
 import Root from './Root'
 
 const routes = [
